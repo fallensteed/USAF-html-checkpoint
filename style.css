@@ -159,6 +159,7 @@ main{
     display: inline-block;
     vertical-align: top;
     margin-left: 1em;
+    width: calc(100% - 23em)
 }
 #container article h1{
     font-size: 2em;
@@ -169,4 +170,33 @@ main{
 }
 #container article p{
     margin: 0.25em 0 0.5em;
+}
+#comment-form{
+    width: 15em;
+    font-size: 1em;
+    text-align: left;
+    margin-left: 3em;
+}
+#comment-form label{
+    display: block;
+    margin: 1em 0;
+    font-weight: bold;
+}
+#comment-form input{
+    padding: 0.5em;
+    font-size: 1.15em;
+    border: solid 1px #aaa;
+    border-radius: 0.25em;
+    width: 100%;
+    display: block;
+    margin: 0.5em 0;
+}
+#comment-form button{
+    margin-top: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25em;
+    padding: 0.5em;
+    font-size: 1.25em;
 }

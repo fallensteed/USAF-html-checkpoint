@@ -2,15 +2,15 @@
 
 <html lang="en">
     <head>
-        <title>GMDB - Movie Details</title>
-        <link rel="stylesheet" href="style.css">
+        <title>GMDB - The Godfather Details</title>
+        <link rel="stylesheet" href="../style.css">
     </head>
     <body>
         <header>
-            <p class="page-title"><a href="index.html">GMDB</a></p>
+            <p class="page-title"><a href="../index.html">GMDB</a></p>
             <nav>
-                <a class="nav-links" href="index.html">Home</a>
-                <a class="nav-links" href="login.html">Login</a>
+                <a class="nav-links" href="../index.html">Home</a>
+                <a class="nav-links" href="../login.html">Login</a>
             </nav>
             <div class="search-menu">
                 <input class="search-input" type="text" id="search" name="search" placeholder="Search">
@@ -20,7 +20,7 @@
 
         <main>
             <div id="banner">
-                <a href="index.html">Back to results</a>
+                <a href="../index.html">Back to results</a>
             </div>
             <div id="container">
                 <img src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" alt="The Godfather">
@@ -32,6 +32,14 @@
                 </article>
             </div>
 
+            <div id="comment-box">
+                <form id="comment-form" action="" method="POST" onsubmit="event.preventDefault()">
+                    <label>Leave a comment:
+                        <input type="text" id="comment" name="cpmment">
+                    </label>
+                    <button>Submit</button>
+                </form>
+            </div>
             
         </main>
 
