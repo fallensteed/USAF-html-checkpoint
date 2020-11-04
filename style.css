@@ -1,0 +1,35 @@
+*,html{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #343a40;
+    height: 3em;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.page-title{
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+nav{
+    position: absolute;
+    top: 0.75em;
+    left: 5em;
+    font-size: 1.25em;
+    color: #fff;
+}
