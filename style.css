@@ -3,12 +3,19 @@
     padding: 0;
 }
 
-html, body{
+html{
     height: 100%;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body{
+    margin-top: 4em;
+    min-height: calc(100% - 4em);
+    width: 100%;
+}
+
+/**** HEADER ****/
 header{
     background-color: #343a40;
     height: 3em;
@@ -17,19 +24,54 @@ header{
     top: 0;
     left: 0;
 }
-
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+header a:hover{
+    color: #ffff00;
+}
 .page-title{
     position: absolute;
-    top: 0.5em;
-    left: 0.5em;
+    top: 50%;
+    left: 1em;
+    transform: translate(0, -50%);
     font-size: 1.5em;
     color: #fff;
 }
-
 nav{
     position: absolute;
-    top: 0.75em;
-    left: 5em;
+    top: 50%;
+    left: 8em;
+    transform: translate(0, -50%);
     font-size: 1.25em;
     color: #fff;
+}
+nav a{
+    display: inline-block;
+    margin-right: 1em;
+}
+.search-menu{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    height: 2.25em;
+}
+.search-menu button{
+    font-size: 1.15em;
+    height: 100%;
+    width: 5em;
+    margin: 0 1em 0 0.5em;
+    background: transparent;
+    border: solid 1.5px #f5ba0b;
+    color: #f5ba0b;
+    border-radius: 0.25em;
+}
+.search-menu input{
+    font-size: 1.15em;
+    height: 36px;
+    padding-left: 0.25em;
+    border-radius: 0.25em;
+    border: solid 1px #343a40;
 }
