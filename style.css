@@ -75,3 +75,23 @@ nav a{
     border-radius: 0.25em;
     border: solid 1px #343a40;
 }
+
+/**** MAIN ****/
+/*** common ***/
+main{
+    text-align: center;
+}
+/*** index.html ***/
+.movie-poster{
+    height: 28em;
+    width: 20em;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1em;
+}
+.movie-poster a, .movie-poster img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5em;
+}
+/*** login.html ***/
